@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Hearthstone</title>
+    <style>
+        body {
+            display: grid;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100%;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 0px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        img {
+            height: 250px;
+            width: 400px;
+            margin: 20px 0;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 3px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>API HEARTHSTONE</h1>
+    </header>
+
+    <main>
+        <p><b>En esta página podrás ver toda la información sobre Hearthstone</b></p>
+        <p><b>¡Gracias por ver!</b></p>
+        <img src="stepintavernthumbnail.jpg" alt="Hearthstone Imagen" />
+
+        <div class="buttons-container">
+            <a href="cartas.html" class="button">Ver Cartas</a>
+            <a href="buscador.html" class="button">Buscador de Cartas</a>
+            <a href="buscador_mazos.html" class="button">Buscador de Mazos</a>
+        </div>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="https://hearthstone.blizzard.com/es-es">Página oficial</a></li>
+            <li><a href="https://hearthstone.blizzard.com/es-es/expansions-adventures">Expansiones</a></li>
+            <li><a href="https://hearthstone.blizzard.com/es-es/news">Noticias</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>2025 Hearthstone API</p>
+    </footer>
+</body>
+
+</html>
