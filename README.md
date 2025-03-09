@@ -1,5 +1,8 @@
 # Carlos Gilabert - Documentación del Proyecto  
 
+Video Documentación del Proyecto: https://www.loom.com/share/9c5a3ae248b645f088a7a2418b969fb8
+Vercel: https://vercel.com/carlos-gilaberts-projects/proyecto-hearthstone
+
 ## Introducción  
 Soy Carlos Gilabert, estudiante de 1º de DAW y esta es la documentación de mi proyecto con JavaScript:
 
